@@ -1,0 +1,276 @@
+body{ text-align:center; } 
+#Container{
+    width:1355px;
+    height:760px;
+    
+    /*background-color:rgb(11, 69, 117);*/
+  /*  background: radial-gradient(circle,#08304A,#08304A); /* 标准的语法 */
+    background:url(1.jpg);
+    
+    margin:0 auto;/*设置整个容器在浏览器中水平居中*/
+}
+#Content-TITLE{
+    width:99%;
+    /*float:left;设置浮动，实现多列效果，p+Css布局中很重要的*/
+    height: 4%;
+
+    /*border-bottom:1px solid #C7C7C7;*/
+}
+#Content-TOP{
+    width:96%;
+    /*float:left;设置浮动，实现多列效果，p+Css布局中很重要的*/
+    height: 60%;
+    margin-left: 2%;
+    margin-right:  2%;
+}
+#Content-DOWN{
+    width:96%;
+    /*float:left;设置浮动，实现多列效果，p+Css布局中很重要的*/
+    height: 30.5%;   
+    margin-top: 1.5%; 
+    margin-bottom: 3%;
+    margin-left: 2%;
+    margin-right:  2%;
+}
+
+
+#Content-TOP-LEFT{
+    width:24%;
+    height:100%;
+    float:left;/*设置浮动，实现多列效果，p+Css布局中很重要的*/
+   
+}
+#Content-TOP-LEFT1{
+    width:100%;
+    height:49%;
+    float:left;/*设置浮动，实现多列效果，p+Css布局中很重要的*/
+    background:url(k4.png)no-repeat;
+    background-size: 100% 100%;
+    margin-bottom: 10px;
+}
+#Content-TOP-LEFT2{
+    width:100%;
+    height:49%;
+    float:left;/*设置浮动，实现多列效果，p+Css布局中很重要的*/
+    background:url(k4.png)no-repeat;
+    background-size: 100% 100%;
+}
+
+#Content-TOP-MID1{
+    width:29%;
+    height:99%;
+    float:left;/*设置浮动，实现多列效果，p+Css布局中很重要的*/
+    background:url(k2.png)no-repeat;
+    background-size: 100% 100%;
+    margin-left: 13px;
+    margin-top: 0.5%;
+}
+#Content-TOP-MID2{
+    width:29%;
+    height:99%;
+    float:left;/*设置浮动，实现多列效果，p+Css布局中很重要的*/
+    background:url(k2.png)no-repeat;
+    background-size: 100% 100%;
+    margin-left: 13px;
+       margin-top: 0.5%;
+}
+
+
+#Content-TOP-RIGHT{
+    width:15%;
+    height:100%;
+    float:left;/*设置浮动，实现多列效果，p+Css布局中很重要的*/
+    margin-left: 13px;
+}
+#Content-TOP-RIGHT1{
+    width:100%;
+    height:32%;
+    float:left;/*设置浮动，实现多列效果，p+Css布局中很重要的*/
+     background:url(k4.png)no-repeat;
+    background-size: 100% 100%;
+    margin-bottom: 3%;
+}
+#Content-TOP-RIGHT2{
+    width:100%;
+    height:64%;
+    float:left;/*设置浮动，实现多列效果，p+Css布局中很重要的*/
+     background:url(k4.png)no-repeat;
+    background-size: 100% 100%;
+     margin-bottom: 3%;
+}
+#Content-TOP-RIGHT3{
+    width:100%;
+    height:0%;
+    float:left;/*设置浮动，实现多列效果，p+Css布局中很重要的*/
+     background:url(k3.png)no-repeat;
+    background-size: 100% 100%;
+}
+
+
+#Content-DOWN-LEFT{
+    width:59%;
+    height:100%;
+    float:left;/*设置浮动，实现多列效果，p+Css布局中很重要的*/
+    background:url(k3.png)no-repeat;
+    background-size: 100% 100%;   
+    margin-right: 1%;
+}
+
+#Content-DOWN-RIGHT{
+    width:40%;
+    height:100%;
+    float:left;/*设置浮动，实现多列效果，p+Css布局中很重要的*/
+   background:url(k3.png)no-repeat;
+    background-size: 100% 100%;
+}
+
+#Content-date{
+    width:100%;
+    height:100%;
+}
+#Content-shangxia{
+    width:100%;
+    height:100%;
+}
+#Content-xuanze{
+    width:100%;
+    height:15%;
+}
+#Content-zuzhi{
+    width:100%;
+    height:85%;
+}
+#Content-youjian{
+    width:100%;
+    height:100%;
+}
+#Content-bumenword{
+    width:100%;
+    height:100%;
+    float:left;
+}
+#Content-chidao{
+    width:50%;
+    height:50%;
+    float:left;
+}
+#Content-kuanggong{
+    width:50%;
+    height:50%;
+    float:left;
+}
+#Content-cizhi{
+    width:100%;
+    height:50%;
+}
+#Content-zongshangxia{
+    width:100%;
+    height:85%;
+    margin-top: 2%;
+
+}
+#Content-pingxing{
+    width:100%;
+    height:100%;
+}
+
+#Content-Yun_bian{
+    height:200px;
+    width:400px;
+    position:absolute;
+    float:left;/*设置浮动，实现多列效果，p+Css布局中很重要的*/
+    border-width:2px; border-style: solid; border-color:#3E558F;
+    background-color: rgba(25,42,57, 0.95);
+}
+
+#Content_tooltip{
+    height:500px;
+    width:900px;
+    position:absolute;
+    float:left;/*设置浮动，实现多列效果，p+Css布局中很重要的*/
+    background-color:rgba(25,42,57, 0.9);
+     border-width:5px; border-style: solid; border-color:#3E558F;
+}
+#Content_tooltip_tittle{
+    width:100%;
+    float:left;
+    height:5%;
+   
+}
+#Content_tooltip_content{
+    width:100%;
+    float:left;
+    height:94%;
+    border-width:1px; border-style: solid; border-color:#3E558F;
+   
+}
+#Content_tooltip_left{
+    width:49%;
+    float:left;
+    height:100%;
+    border-width:1px; border-style: solid; border-color:#3E558F;
+    border-bottom:1px solid #C7C7C7;
+    margin-left: 5px;
+}
+#Content_tooltip_right{
+    width:50%;
+    float:left;
+    height:100%;
+    border-width:1px; border-style: solid; border-color:#3E558F;
+ 
+}
+
+#Content_geshangxia{
+    width:100%;
+    height:50%;
+    float:left;/*设置浮动，实现多列效果，p+Css布局中很重要的*/
+    border-width:1px; border-style: solid; border-color:#3E558F;
+}
+#Content_geliuliang{
+    width:100%;
+    height:50%;
+    float:left;/*设置浮动，实现多列效果，p+Css布局中很重要的*/
+    border-width:1px; border-style: solid; border-color:#3E558F;
+}
+#Content_geword{
+    width:100%;
+    height:50%;
+    float:left;/*设置浮动，实现多列效果，p+Css布局中很重要的*/
+    border-width:1px; border-style: solid; border-color:#3E558F;
+}
+#Content_geerror{
+    width:50%;
+    height:50%;
+    float:left;/*设置浮动，实现多列效果，p+Css布局中很重要的*/
+    border-width:1px; border-style: solid; border-color:#3E558F;
+}
+#Content_geweb{
+    width:50%;
+    height:50%;
+    float:left;/*设置浮动，实现多列效果，p+Css布局中很重要的*/
+    border-width:1px; border-style: solid; border-color:#3E558F;
+}
+
+
+
+
+#Content-YUE{
+    height:500px;
+    width:900px;
+    position:absolute;
+    float:left;/*设置浮动，实现多列效果，p+Css布局中很重要的*/
+    background-color:#333333;
+    border-width:2px; border-style: solid; border-color:#C7C7C7;
+}
+
+#Content-pcpbrush{
+    height:100px;
+    width:300px;
+    position:absolute;
+    background-color:rgba(25,42,57, 1);
+    border-width:2px; border-style: solid; border-color:#3E558F;
+}
+
+.Clear{
+    clear:both;
+}

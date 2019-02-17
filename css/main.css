@@ -1,0 +1,137 @@
+body{ text-align:center; background-color:#fff;} 
+#Container{
+    width:100%;
+    height:1000px;
+    margin:0 auto;/*设置整个容器在浏览器中水平居中*/
+}
+#Content-LEFT{
+    
+    width:30%;
+    height:100%;
+    float:left;/*设置浮动，实现多列效果，p+Css布局中很重要的*/
+    border-width:1px; border-style: solid; border-color:#C7C7C7;
+}
+#Content-MIDDLE{
+    width:39%;
+    height:100%;
+    float:left;/*设置浮动，实现多列效果，p+Css布局中很重要的*/
+    border-width:1px; border-style: solid; border-color:#C7C7C7;
+}
+
+#Content-RIGHT{
+    width:30%;
+    height:100%;
+    float:left;/*设置浮动，实现多列效果，p+Css布局中很重要的*/
+    border-width:1px; border-style: solid; border-color:#C7C7C7;
+}
+
+#top_1{
+    width:100%;
+    /*float:left;设置浮动，实现多列效果，p+Css布局中很重要的*/
+    height: 50%;
+    border-width:0px; border-style: solid; border-color:#C7C7C7;
+    border-bottom:1px solid #C7C7C7;
+}
+#down_1{
+    width:100%;
+    /*float:left;设置浮动，实现多列效果，p+Css布局中很重要的*/
+    height: 50%;
+    border-width:0px; border-style: solid; border-color:#C7C7C7;
+}
+#top_2{
+    width:100%;
+    /*float:left;设置浮动，实现多列效果，p+Css布局中很重要的*/
+    height: 60%;
+    border-width:0px; border-style: solid; border-color:#C7C7C7;
+    border-bottom:1px solid #C7C7C7;
+}
+#top_2_top{
+    width:100%;
+    /*float:left;设置浮动，实现多列效果，p+Css布局中很重要的*/
+    height: 6%;
+    border-width:0px; border-style: solid; border-color:#C7C7C7;
+    /*border-bottom:1px solid #C7C7C7;*/
+}
+#top_2_down{
+    width:100%;
+    /*float:left;设置浮动，实现多列效果，p+Css布局中很重要的*/
+    height: 94%;
+    border-width:0px; border-style: solid; border-color:#C7C7C7;
+}
+
+
+
+
+
+
+
+#down_2{
+    width:100%;
+    /*float:left;设置浮动，实现多列效果，p+Css布局中很重要的*/
+    height: 40%;
+    border-width:0px; border-style: solid; border-color:#C7C7C7;
+}
+#top_3{
+    width:100%;
+    /*float:left;设置浮动，实现多列效果，p+Css布局中很重要的*/
+    height: 50%;
+    border-width:0px; border-style: solid; border-color:#C7C7C7;
+    border-bottom:1px solid #C7C7C7;
+}
+#down_3{
+    width:100%;
+    /*float:left;设置浮动，实现多列效果，p+Css布局中很重要的*/
+    height: 50%;
+    border-width:0px; border-style: solid; border-color:#C7C7C7;
+}
+#Content-tooltip{
+    height:700px;
+    width:1200px;
+    position:absolute;
+    float:left;/*设置浮动，实现多列效果，p+Css布局中很重要的*/
+    background-color:#333333;
+    border-width:2px; border-style: solid; border-color:#C7C7C7;
+}
+#tooltip_top{
+    width:100%;
+    /*float:left;设置浮动，实现多列效果，p+Css布局中很重要的*/
+    height: 50%;
+    border-width:0px; border-style: solid; border-color:#C7C7C7;
+    border-bottom:1px solid #C7C7C7;
+}
+#tooltip_down{
+    width:100%;
+    /*float:left;设置浮动，实现多列效果，p+Css布局中很重要的*/
+    height: 49%;
+    border-width:0px; border-style: solid; border-color:#C7C7C7;
+}
+
+#Content-E_out_in{
+    width:34%;
+    /*float:left;设置浮动，实现多列效果，p+Css布局中很重要的*/
+    height: 100%;
+    float:left;/*设置浮动，实现多列效果，p+Css布局中很重要的*/
+    background-color:#333333;
+    border-width:2px; border-style: solid; border-color:#C7C7C7;
+}
+#Content-WordCloud{
+    width:65%;
+    /*float:left;设置浮动，实现多列效果，p+Css布局中很重要的*/
+    height: 100%;
+    float:left;/*设置浮动，实现多列效果，p+Css布局中很重要的*/
+    background-color:#333333;
+    border-width:2px; border-style: solid; border-color:#C7C7C7;
+}
+#Content-Yun_bian{
+    height:300px;
+    width:500px;
+    position:absolute;
+    float:left;/*设置浮动，实现多列效果，p+Css布局中很重要的*/
+    background-color:#333333;
+    border-width:2px; border-style: solid; border-color:#C7C7C7;
+}
+
+
+.Clear{
+    clear:both;
+}
